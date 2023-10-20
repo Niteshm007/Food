@@ -1,0 +1,32 @@
+/* CSS for the pagination controls */
+.pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .pagination-controls button {
+    background-color: #007bff; /* Change to your preferred button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-controls button:hover {
+    background-color: #0056b3; /* Change to a darker shade for hover effect */
+  }
+  
+  /* Style for the "Previous" button */
+  .pagination-controls button:first-child {
+    margin-right: 10px;
+  }
+  
+  /* Style for the "Next" button */
+  .pagination-controls button:last-child {
+    margin-left: 10px;
+  }
+  
